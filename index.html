@@ -733,7 +733,7 @@ input:focus, textarea:focus, select:focus {
 
 // ISHI ID generator: GH925 + 5 random digits
 document.getElementById('gen_ishi')?.addEventListener('click',()=>{
-  let prefix='GH925';
+  let prefix='GH0925';
   let digits='';
   for(let i=0;i<5;i++) digits+=Math.floor(Math.random()*10);
   document.getElementById('ishi_id').value = prefix+digits;
